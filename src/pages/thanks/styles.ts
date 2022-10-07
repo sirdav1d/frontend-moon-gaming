@@ -5,11 +5,13 @@ export const ContainerThanks = styled(ContainerGeneral)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: conic-gradient(from 180deg at 50% 70%, #262626 0deg, #384D59 300deg);
+    background: conic-gradient(from 180deg at 50% 95%, black 0deg, #384D59 360deg);
     background-size: 210%;
-    animation: backAnimation 6s ease-in-out infinite alternate;
+    animation: backAnimation 8s ease-in-out infinite alternate;
     color: #f2f2f2;
     text-shadow: 0 2px 8px #262626;
+    text-align :center;
+    overflow: hidden;
 
     @keyframes backAnimation{
         from{

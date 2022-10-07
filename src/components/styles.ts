@@ -96,7 +96,7 @@ export const Logo = styled.img`
 export const AsideContainer = styled.aside`
     height: 100vh;
     width: 40%;
-    background: conic-gradient(from 180deg at 50% 93%, #262626 0deg, #384D59 300deg);
+    background: conic-gradient(from 180deg at 50% 95%, black 0deg, #384D59 360deg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,7 +138,7 @@ export const ContainerLogin = styled.div`
     padding: 16px;
     border-radius: 16px;
     margin: 0 auto 12px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
 `
 export const FormLogin = styled.form`
     width: 100%;
@@ -177,9 +177,9 @@ export const ContainerRegister = styled(ContainerGeneral)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: conic-gradient(from 180deg at 50% 70%, #262626 0deg, #384D59 300deg);
+    background: conic-gradient(from 180deg at 50% 95%, black 0deg, #384D59 360deg);
     background-size: 210%;
-    animation: backAnimation 6s ease-in-out infinite alternate;
+    animation: backAnimation 8s ease-in-out 4s infinite alternate;
     max-width: 100vw;
 
     @keyframes backAnimation{
@@ -242,14 +242,25 @@ export const ButtonBack = styled(ButtonRegister)`
 export const ContainerHome = styled(ContainerGeneral)`
     display: flex;
     flex-direction: column;
-    background: conic-gradient(from 180deg at 50% 75%, #262626 0deg, #384D59 300deg);
+    background: conic-gradient(from 180deg at 50% 95%, black 0deg, #384D59 360deg);
+    background-size: 300%;
+    animation: backAnimation 8s ease-in-out 4s infinite alternate;
+
+    @keyframes backAnimation{
+        from{
+            background-position: left;
+        }
+        to{
+            background-position: right;
+        }
+    }
 
 `
 
 export const Header = styled.div`
     width: 100%;
     height: 100px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -327,7 +338,7 @@ export const CardContainer = styled.div`
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 0 8px #262626;
+    box-shadow: 0 0 8px rgba(0,0,0,.5);
     position: relative;
 
 
@@ -448,7 +459,9 @@ export const GenderList = styled(ButtonPattern)`
 
 export const Footer = styled.div`
     padding: 8px 0;
-    background-color: ${Colors.dark1};
+    background-color: rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(7px);
     width: 100%;
     color: whitesmoke;
     font-weight: bold;
@@ -456,5 +469,7 @@ export const Footer = styled.div`
     justify-content: center;
     font-size: 12px;
     letter-spacing: .5px;
-    margin-top: 28px
+    margin-top: 28px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    
 `
