@@ -440,7 +440,20 @@ export const GenderList = styled(ButtonPattern)`
     border: 1px solid ${Colors.primary};
     background-color: transparent;
     text-align: center;
-    margin: 0 16px;
+    margin: 0 12px;
     border-radius: 16px;
     
+`
+
+export const Footer = styled.div`
+    padding: 8px 0;
+    background-color: ${Colors.dark1};
+    width: 100%;
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin-top: 28px
 `

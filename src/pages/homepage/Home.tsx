@@ -1,6 +1,7 @@
 import {
 	ButtonHomeHeader,
 	ContainerHome,
+	Footer,
 	GlobalStyle,
 	Header,
 	HomeContent,
@@ -34,6 +35,9 @@ function App() {
 				<HomeContent>
 					<CardList />
 				</HomeContent>
+				<Footer>
+					<p>Desenvolvido por David D. Dos Santos &copy;</p>
+				</Footer>
 			</ContainerHome>
 			<GlobalStyle />
 		</>

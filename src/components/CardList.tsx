@@ -48,6 +48,7 @@ const CardList = () => {
 						score={game.imdb_score}
 					/>
 				))}
+
 			</ContainerCardList>
 			<GlobalStyle />
 		</>

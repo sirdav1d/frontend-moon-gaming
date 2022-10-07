@@ -13,4 +13,8 @@ export const genders = [{
 {
     name: "ESPORTES",
     id:4,
+},
+{
+    name: "LUTA",
+    id:5,
 }]

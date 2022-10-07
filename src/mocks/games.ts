@@ -2,8 +2,8 @@ export const games =
 [
     {
     id: 1,
-    title: "Exemplo",
-    cover_image_url: "https://images3.alphacoders.com/843/843016.jpg",
+    title: "Valorant",
+    cover_image_url: "https://raw.githubusercontent.com/sirdav1d/images-assets/main/valorant.jpg?token=GHSAT0AAAAAABZU2OEUUT43IJIP7UF3NBNKYZ75VZA",
     description: "Kratos agora vive como um mortal no reino dos deuses e monstros nórdicos. É nesse mundo duro e implacável que ele deve lutar para sobreviver... e ensinar seu filho a fazer o mesmo.",
     year: 2018,
     imdb_score: 5,
