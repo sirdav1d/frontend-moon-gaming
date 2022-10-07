@@ -340,6 +340,11 @@ export const CardContainer = styled.div`
     cursor: pointer;
     box-shadow: 0 0 8px rgba(0,0,0,.5);
     position: relative;
+    transition: all .3s ease;
+
+    :hover{
+        transform: scale(1.1)
+    }
 
 
    
@@ -370,7 +375,7 @@ export const Overlay = styled.div`
     background: linear-gradient(0deg, rgba(38, 38, 38, 0.9) 5%, rgba(2, 2, 2, 0.1) 30%);
     border-radius: 8px;
     opacity: 0;
-    transition: all .4s ease;
+    transition: all .3s ease;
 
     :hover{
         opacity: 1;
