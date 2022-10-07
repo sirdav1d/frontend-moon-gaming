@@ -380,7 +380,8 @@ export const Overlay = styled.div`
         font-weight: bold;
         font-size: 16px;
         letter-spacing: .5px;
-        margin:0;
+        line-height: 16px;
+        margin:4px 0;
     }
 `
 export const ScoreCard = styled.div`

@@ -35,9 +35,9 @@ const CardList = () => {
 				</CardListSearch>
 				<GenderListContainer>
 					{genders.map((gender: any) => (
-						<GenderContent 
-						nome={gender.name}
-						key={gender.id}
+						<GenderContent
+							nome={gender.name}
+							key={gender.id}
 						/>
 					))}
 				</GenderListContainer>
@@ -46,9 +46,9 @@ const CardList = () => {
 						nome={game.title}
 						key={game.id}
 						score={game.imdb_score}
+						image={game.cover_image_url}
 					/>
 				))}
-
 			</ContainerCardList>
 			<GlobalStyle />
 		</>

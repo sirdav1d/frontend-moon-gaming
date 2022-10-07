@@ -15,7 +15,7 @@ const Card = (props: any) => {
 	return (
 		<CardContainer>
 			<img
-				src='https://images3.alphacoders.com/843/843016.jpg'
+				src={props.image}
 				alt='img'
 			/>
 			<Overlay>
