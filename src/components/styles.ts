@@ -14,6 +14,11 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Kanit', sans-serif;
         border: none;
 
+        button{
+            background-color: transparent;
+            cursor: pointer;
+        }
+
     }
 `
 
@@ -35,7 +40,7 @@ export const ContainerGeneral = styled.div`
     min-height: 100vh;
 `
 
-export const ButtonPattern = styled.a`
+export const ButtonPattern = styled.button`
     background: ${Colors.primary};
     padding: 4px;
     width: 130px;
@@ -277,19 +282,28 @@ export const Header = styled.div`
 
     li{
         list-style: none;
-        padding: 12px;
+        margin: 12px;
+        width: 100%;
     }
 
 `
 
-export const ButtonHomeHeader = styled(ButtonPattern)`
-    background: transparent;
-    font-size: 13px;
-    font-weight: normal;
-    padding: 4px 12px;
+export const ButtonHomeHeader = styled.a`
+    background-color: transparent;
     margin:0;
-    border: 1px solid ${Colors.primary};
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+   
+    :hover{
+        box-shadow:0 0 12px ${Colors.primary};
+    }
+    
 `
 
 

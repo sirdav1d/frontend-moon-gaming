@@ -1,6 +1,7 @@
 import {
 	CardListSearch,
 	ContainerCardList,
+	GenderList,
 	GenderListContainer,
 	GlobalStyle,
 	InputHome,
@@ -11,7 +12,7 @@ import { genders } from '../mocks/genders';
 import { useState } from 'react';
 import Card from './Card';
 import { matchByText } from '../helpers/utils';
-import GenderContent from './Genders';
+
 
 const CardList = () => {
 	const [gameFiltered, setGameFiltered] = useState(games);
@@ -22,6 +23,16 @@ const CardList = () => {
 		);
 		setGameFiltered(lista);
 	};
+
+	const fillByGender = (e:any)=>{
+		e.stopPropagation()
+		const id = e.target.id;
+		const response = genders.map((gender) => gender.id === id);
+		console.log({response});
+		console.log(e.target.id)
+	}
+
+	
 
 	return (
 		<>
@@ -35,10 +46,12 @@ const CardList = () => {
 				</CardListSearch>
 				<GenderListContainer>
 					{genders.map((gender: any) => (
-						<GenderContent
-							nome={gender.name}
-							key={gender.id}
-						/>
+						<GenderList
+							onClick={fillByGender}
+							id={gender.id}
+							key={gender.id}>
+							{gender.name}
+						</GenderList>
 					))}
 				</GenderListContainer>
 				{gameFiltered.map((game: any) => (

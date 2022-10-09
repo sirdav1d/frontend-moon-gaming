@@ -10,11 +10,11 @@ import {
 import logo from '../../assets/imagens/logo-moon-gaming.svg';
 import CardList from '../../components/CardList';
 import { LogoHome } from './styles';
-
+import { CgProfile } from 'react-icons/cg';
+import { FiSettings } from 'react-icons/fi';
+import { MdFavoriteBorder } from 'react-icons/md';
 
 function App() {
-	
-
 	return (
 		<>
 			<ContainerHome>
@@ -25,10 +25,28 @@ function App() {
 					/>
 					<ul>
 						<li>
-							<ButtonHomeHeader>Jogos Favoritos</ButtonHomeHeader>
+							<ButtonHomeHeader>
+								<MdFavoriteBorder
+									size={25}
+									color={'#05F2E7'}
+								/>
+							</ButtonHomeHeader>
 						</li>
 						<li>
-							<ButtonHomeHeader>Configurações</ButtonHomeHeader>
+							<ButtonHomeHeader href='/profiles'>
+								<CgProfile
+									size={25}
+									color={'#05F2E7'}
+								/>
+							</ButtonHomeHeader>
+						</li>
+						<li>
+							<ButtonHomeHeader>
+								<FiSettings
+									size={25}
+									color={'#05F2E7'}
+								/>
+							</ButtonHomeHeader>
 						</li>
 					</ul>
 				</Header>
