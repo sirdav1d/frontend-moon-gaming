@@ -4,6 +4,7 @@ import Home from './pages/homepage/Home';
 import Login from './pages/singup/Login';
 import Register from './pages/singup/Register';
 import Thanks from './pages/thanks/Thanks';
+import Proflie from './pages/profile/Proflie';
 
 const Router = () => {
 	return (
@@ -15,6 +16,10 @@ const Router = () => {
 			<Route
 				path={RoutePath.LOGIN}
 				element={<Login />}
+			/>
+			<Route
+				path={RoutePath.PROFILES}
+				element={<Proflie />}
 			/>
 			<Route
 				path={RoutePath.REGISTER}

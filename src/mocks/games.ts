@@ -42,7 +42,7 @@ export const games =
     },
     {
     id: 5,
-    title: "Street Fighter 5",
+    title: "Street Fighter V",
     cover_image_url: "https://lh3.googleusercontent.com/hGOo352kT1z6j0BVD3h6gUduMBv4P7vgFA5Uj84yIZVjjdvzJPIgZp8slpzYrVHsrAuBkDcCGA3kA-aeS4YdZ3Iti9vsRJaJkRBo3e2IHEtUksy6HMFmU894yihIFAqFv9vpkDL0afcUIEeNg7Z7U_25XtnqNwLCWfUrHIzqqlYqXSOjOahoSlLV-tGkA7LF791TcDL2imu_WSdQ07qs3fPIZNGguYQnClg95kfE-CDLO270-E_lsnKj1lHHpSuPSn2gWcmuTdRmmk5WUL99wJ-1sn9rrsWoKFkMt0XOMC70RC5_ZOcgUcHncM-NkqG40eGh3pcW_wt7uXGmEYvd0dz18fqMNDfSYkPs_BuhkThgm1HVb9bbYj-Z_qOk0rYD6nbnxrw9rrPfw0kkNmXM1e-tYdsvuqeJ5HKWrERzu_fx1Cs2pqYACjoPVcxGN8uiv8Ybf-L0mMZdYkihB5Y9v7scukAKIQLQ1RjsDbGyOPlZUOeAfQj9CZZ9I99kmZfULuBpiB2dSAXaaCVG__w_4rvsniWfPlSzBpAM5IgnQXmiXb79M9w24gZoJ_UlzdCEdvYDfjMQcp6NvDLW3EfzYIb01YAnz7ZW090wWZRv9-x3tr8UpA8IEsyZGESONnsyuv7aTOOS6JKm-Ex4brLAXXgOjzRAtO2A-aVvFaM_TkGtZuKx2G8mixKVROQOajZtfsf_f85-h_TwhqaGjUCLKHAr3KScFKCp3AIyHgh8isqEgKNUVocPRzjCL0h3weUPRcxmcWRERPe_xslji-4tU7DivsjthRtflHGcE6q_LSjVJYyrGQZ1jpMUaBblDWShWC9hvAl6PeJBpXx6dC7xfI6tou2P0I2oEw3CD6lN4ZxlC6vYeUizCFJkJrBzPH6ncdH83lLdQwHlQXN9MLgTG2qB3LBs11IeKdX6_Ldm_Q=s346-no?authuser=0",
     description: "Kratos agora vive como um mortal no reino dos deuses e monstros nórdicos. É nesse mundo duro e implacável que ele deve lutar para sobreviver... e ensinar seu filho a fazer o mesmo.",
     year: 2016,

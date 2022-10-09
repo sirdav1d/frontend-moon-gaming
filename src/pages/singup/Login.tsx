@@ -56,7 +56,7 @@ function Login() {
 								type='password'
 								required></InputPattern>
 						</FormLogin>
-						<ButtonPattern href="/" type='submit'>ENTRAR</ButtonPattern>
+						<ButtonPattern href="/profiles" type='submit'>ENTRAR</ButtonPattern>
 					</ContainerLogin>
 
 					<ButtonRegister href='/register' >CADASTRAR</ButtonRegister>

@@ -4,6 +4,7 @@ import Router from './router';
 import Login from './pages/singup/Login';
 import Thanks from './pages/thanks/Thanks';
 import CardList from './components/CardList';
+import Proflie from './pages/profile/Proflie';
 
 
 const queryClient = new QueryClient();
