@@ -1,5 +1,5 @@
 import { LocalStorageHelper } from "./LocalStorageHelper";
-import { LocalStorageKeys } from "types/LocalStorageKeys";
+import { LocalStorageKeys } from "../types/LocalStorageKeys";
 import { RoutePath } from "../types/routes";
 
 export const Auth = {
