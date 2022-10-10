@@ -1,4 +1,4 @@
-import { Api } from '../helpers/endpoints/api';
+import { Api } from '../helpers/endpoints/Api';
 import { endpoint } from '../helpers/endpoints/index';
 import { ErrorResponse } from '../types/api/error';
 import { Login, LoginResponse } from '../types/api/login';

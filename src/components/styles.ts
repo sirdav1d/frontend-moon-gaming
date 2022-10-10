@@ -40,7 +40,7 @@ export const ContainerGeneral = styled.div`
     min-height: 100vh;
 `
 
-export const ButtonPattern = styled.button`
+export const ButtonPattern = styled.a`
     background: ${Colors.primary};
     padding: 4px;
     width: 130px;

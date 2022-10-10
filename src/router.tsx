@@ -1,12 +1,11 @@
 import { Routes, Route, Outlet, Navigate } from 'react-router-dom';
 import { RoutePath } from './types/routes';
 import Home from './pages/homepage/Home';
-import Login from './pages/singup/Login';
-import Register from './pages/singup/Register';
+import Login from './pages/sign/Login';
+import Register from './pages/sign/Register';
 import Thanks from './pages/thanks/Thanks';
 import Proflie from './pages/profile/Proflie';
 import { Auth } from './helpers/Auth';
-
 
 const AuthenticatedRoutes = () => {
 	const isAuthenticated = Auth.isAuth();
@@ -27,12 +26,9 @@ const Router = () => {
 				path={RoutePath.THANKS}
 				element={<Thanks />}
 			/>
-			
-{/* ROTAS AUTENTICADAS */}
-			<Route
-				path='/'
-				element={<AuthenticatedRoutes />}>
 
+			{/* ROTAS AUTENTICADAS */}
+			
 				<Route
 					path={RoutePath.HOME}
 					element={<Home />}
@@ -41,7 +37,7 @@ const Router = () => {
 					path={RoutePath.PROFILES}
 					element={<Proflie />}
 				/>
-			</Route>
+			
 		</Routes>
 	);
 };
